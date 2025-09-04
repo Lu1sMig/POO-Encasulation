@@ -138,12 +138,18 @@ java -cp out com.ejemplo.Main
 - `Pedido` contiene una lista de `Item`  
 - `Main` usa a `Pedido` y `Item` para ejecutar el flujo  
 
+![Diagrama de Clases](uml_clases.png)
+
+
 ## 📈 Diagrama UML de secuencia
 1. `Main` crea un `Pedido`
 2. `Main` agrega ítems válidos (`Item`)
 3. `Pedido` actualiza el total automáticamente
 4. `Main` intenta agregar ítem inválido
 5. Se lanza excepción con mensaje de validación
+
+![Diagrama de Clases](uml_secuencia.png)
+
 
 ## 🎯 Beneficios de esta versión
 - El estado del sistema siempre es válido gracias a las validaciones internas.
