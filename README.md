@@ -155,3 +155,7 @@ java -cp out com.ejemplo.Main
 - El estado del sistema siempre es válido gracias a las validaciones internas.
 - Se evita lógica repetida en `Main`, concentrando reglas dentro de las clases correspondientes.
 - El diseño es robusto, mantenible y seguro.
+
+## Fuente:
+https://www.aluracursos.com/blog/revisando-la-orientacion-a-objetos-encapsulacion-de-java
+
