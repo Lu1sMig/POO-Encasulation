@@ -148,7 +148,7 @@ java -cp out com.ejemplo.Main
 4. `Main` intenta agregar ítem inválido
 5. Se lanza excepción con mensaje de validación
 
-![Diagrama de Clases](uml_secuencia.png)
+![Diagrama de Clases](uml_secuencias.png)
 
 
 ## 🎯 Beneficios de esta versión
